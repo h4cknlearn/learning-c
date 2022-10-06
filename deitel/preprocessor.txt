@@ -1,0 +1,10 @@
+in CS, preprocessor or precompiler is a program that process its input data to produce output that is used as input to another program
+
+the output is said to be a preprocessed form of the input data, which is often used by some subsequent programs like compilers
+
+
+------> a common example from computer programming is the processing performed on source code before the next step of compilation
+
+in some languages, e.g -- C -- there is a phase of translation known as preprocessing. It can also include macro processing, file inclusion and language extensions.
+
+

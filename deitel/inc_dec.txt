@@ -1,0 +1,4 @@
+++   ++a   increment by 1 first
+++   a++   use the current value, then inc by 1
+--   --b   decrement by 1 first
+--   b--   use the current value, then dec by 1

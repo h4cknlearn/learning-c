@@ -1,0 +1,6 @@
+
+
+a //syntax// error is caught by the compiler
+a //logic// error has its effect at execution time
+a //fatal logic// error causes a program to fail and terminate prematurely
+a //nonfatal logic// error allows a program to continue executing but to produceincorrect results

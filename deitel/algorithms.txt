@@ -1,0 +1,49 @@
+the solution to any computing problem involves executing a series of actions in a specific order
+
+
+a procedure for solving a problem in terms of
+1 ---- the actions to be executed
+2 ---- the order in which these actions are to be executed
+
+is called an algorithm.
+
+control structures
+
+structured programming !== goto elimination
+
+jacopini and bohm
+-> all programs could be written in terms of only
+three control structures
+
+1. sequence structure
+2. selection structure
+- if: single selection statement
+- if else: double selection statement
+- switch: multiple selection statement
+
+3. iteration structure
+- while
+- do while
+- for
+
+control statement stacking
+control statement nesting
+
+Any C program can be constructed from only 7 different types of control
+statements combined in only 2 ways.
+----> this is the essence of simplicity.
+
+conditional operator
+Cs only ternary operator -- it takes three operands
+
+1. condition
+2. value for the entire conditional expression if it is true
+value for the enire conditional expression if it is false
+
+ex puts(grade >= 60 ? "passed" : "failed");
+
+ex grade >= 60 ? puts("passed") : puts("failed");
+if grade is greater than or equal to 60, then puts("passed"), otherwise puts("failed")
+
+conditional operators can be used in places where if else statements cannot
+including expressions and arguments to functions like printf; 

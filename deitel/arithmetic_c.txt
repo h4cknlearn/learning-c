@@ -1,0 +1,6 @@
+
+addition -----------------> +     == f + 7
+subtraction --------------> -     == p -c
+multiplication -----------> *     == b * m
+division -----------------> /     == x / y
+remainder ----------------> %     == r % s

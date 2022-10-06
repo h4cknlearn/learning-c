@@ -1,0 +1,4 @@
+variable = variable operator expression;
+operator can be +, -, *, / or %
+
+variable operator= expression;

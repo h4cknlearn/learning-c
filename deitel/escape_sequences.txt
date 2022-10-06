@@ -1,0 +1,14 @@
+| escape sequences | -----
+
+backslach \ are called escape character -- it indicates that prinft is supposed to do something out of the ordinary.
+
+when encoutering a backslash in a string, the compiler looks ahead at the next character and combines it with the backslash to form an escape sequence.
+
+the escape sequence \n means newline. 
+
+\n ---------> newline
+\t ---------> horizontal tab
+\a ---------> alert
+\\ ---------> backslash. Insert a backslash character in a string
+\" ---------> double quote
+

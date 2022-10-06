@@ -1,0 +1,24 @@
+average = ( float ) total / counter;
+
+dividing 2 integer results in integer division in which any fractional
+part of the calculation is truncated (lost).
+
+because the calculation is performed first, the fractional part is lost before the result is assigned to average.
+
+to produce a floating point calculation with integer values, we must create temporary values that are floating point numbers
+
+C provides the unary cast operator to accomplish this task
+average = ( float ) total / counter;
+
+formatting floating point numbers
+
+converion specifier %.2f 
+f: specifies that a floating point value will be printed
+.2: is the precision with which the value will be diplayed - with 2 digits
+to the right of the decimal point
+
+
+PS -- using precision in a conversion specification in the format control string of a scanf statement is an error
+----> precisions are used only in printf conversion specifications
+
+

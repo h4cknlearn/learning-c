@@ -1,0 +1,15 @@
+
+counter controlled iteration   ---> definite iteration: known in advance
+sentinel controlled iteration  ---> indefinite iteration: not known
+
+counter controlled
+-> control variable is used to count the number of iterations
+incremented usually by 1
+
+
+sentinel values
+1. the precise number of iterations isnt known
+2. the loop includes statements that obtain data each time the loop
+is performed
+
+sentinel values indicates "end of data"
